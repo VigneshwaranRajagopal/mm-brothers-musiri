@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title
+      data-en="M.M. Brothers Rice & Egg - Musiri Trichy"
+      data-ta="ம.ம். சகோதரர்கள் அரிசி & முட்டை - முசிறி திருச்சி"
+    >
+      MM Brothers Musiri
+    </title>
+    <meta
+      name="description"
+      content="Fresh rice varieties & country eggs from Musiri Main Market, Trichy. Seeraga Samba, Ponni, Country Eggs daily supply. GPS: 10.9622025, 78.4491605"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipOplpDJI_xsh0Ukh3KLkG5tdycssEoPO9Yb_jIf=w299-h298-k-no"
+            alt="MM Brothers Musiri Shop"
+            class="logo-img"
+            loading="lazy"
+          />
+          <span data-en="MM Brothers Musiri" data-ta="ம.ம். சகோதரர்கள் முசிறி"
+            >MM Brothers</span
+          >
+        </a>
+        <ul class="nav-menu">
+          <li><a href="#home" data-en="Home" data-ta="முகப்பு">Home</a></li>
+          <li>
+            <a href="#products" data-en="Products" data-ta="பொருட்கள்"
+              >Products</a
+            >
+          </li>
+          <li>
+            <a href="about.html" data-en="About" data-ta="பற்றி">About</a>
+          </li>
+          <li>
+            <a href="contact.html" data-en="Contact" data-ta="தொடர்பு"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div class="lang-switcher">
+          <select id="lang-select" class="lang-dropdown">
+            <option value="en">🇬🇧 English</option>
+            <option value="ta">🇮🇳 தமிழ்</option>
+          </select>
+        </div>
+        <div class="hamburger">☰</div>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <h1 data-en="Fresh Rice & Eggs" data-ta="புதிய அரிசி & முட்டை">
+          Fresh Rice & Eggs
+        </h1>
+        <p
+          data-en="Musiri Main Market • Daily Fresh Supply"
+          data-ta="முசிறி மெயின் மார்க்கெட் • தினசரி புதிய சப்ளை"
+        >
+          Musiri Main Market
+        </p>
+        <a
+          href="#products"
+          class="cta-btn"
+          data-en="View Products"
+          data-ta="பொருட்கள் பார்"
+          >View Products</a
+        >
+        <a
+          href="https://www.google.com/maps/place/M.M.Brothers+Rice+Mandi/@10.9622025,78.4491605,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOplpDJI_xsh0Ukh3KLkG5tdycssEoPO9Yb_jIf!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fp%2FAF1QipOplpDJI_xsh0Ukh3KLkG5tdycssEoPO9Yb_jIf%3Dw299-h298-k-no!7i1080!8i1075!4m9!3m8!1s0x3baa4f1cd339958f:0x2461011d7323bdf2!8m2!3d10.9622025!4d78.4491605!10e5!14m1!1BCgIgARICEAE!16s%2Fg%2F11j2cgt6zw"
+          target="_blank"
+          class="streetview-btn"
+          data-en="👀 Street View"
+          data-ta="👀 தெரு பார்வை"
+          >Street View</a
+        >
+      </div>
+    </section>
+
+    <section id="products" class="products-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 data-en="Our Fresh Products" data-ta="எங்கள் புதிய பொருட்கள்">
+            Fresh Products
+          </h2>
+          <p
+            data-en="Direct from Musiri farmers • GPS: 10.9622025, 78.4491605"
+            data-ta="முசிறி விவசாயிகளிடமிருந்து நேரடி • GPS: 10.9622025, 78.4491605"
+          >
+            Daily Supply
+          </p>
+        </div>
+        <div class="filters">
+          <button
+            class="filter-btn active"
+            data-filter="all"
+            data-en="All"
+            data-ta="அனைத்தும்"
+          >
+            All
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="rice"
+            data-en="Rice"
+            data-ta="அரிசி"
+          >
+            Rice
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="eggs"
+            data-en="Eggs"
+            data-ta="முட்டை"
+          >
+            Eggs
+          </button>
+          <input
+            type="text"
+            id="search"
+            data-en-placeholder="Search rice, eggs..."
+            data-ta-placeholder="அரிசி, முட்டை தேடவும்..."
+          />
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p
+          data-en="© 2025 MM Brothers Rice & Egg Centre, Musiri Trichy 621211"
+          data-ta="© 2025 ம.ம். சகோதரர்கள் அரிசி & முட்டை மையம், முசிறி திருச்சி 621211"
+        >
+          © 2025 MM Brothers
+        </p>
+        <p
+          data-en="GPS: 10.9622025, 78.4491605 | Near Angalamman Temple"
+          data-ta="GPS: 10.9622025, 78.4491605 | அங்கலம்மன் கோயில் அருகில்"
+        >
+          Musiri Main Market
+        </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
