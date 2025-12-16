@@ -137,7 +137,7 @@ function renderProducts(productsToShow = products) {
                 <h3>${product.name[lang]}</h3>
                 <div class="price">${product.price}</div>
                 <p class="desc">${product.desc[lang]}</p>
-                <a href="https://wa.me/919843054321?text=${encodeURIComponent(
+                <a href="https://wa.me/917667424736?text=${encodeURIComponent(
                   `${product.name[lang]} x1 - ${product.price} - Musiri Main Market`
                 )}" 
                    class="btn-order" target="_blank">
